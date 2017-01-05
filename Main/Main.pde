@@ -1,7 +1,8 @@
 Frames myFrames = new Frames();
+
 void setup() {
-  size(600, 600);
-  background(255);
+  fullScreen();
+  background(#2109AF);
 }
 
 void draw() {
