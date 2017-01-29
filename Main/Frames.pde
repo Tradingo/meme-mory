@@ -26,7 +26,7 @@ class Frames {
     rect((width/9*5) - d, yPos + 300, (width/9) + d, hoejde);
     rect((width/9*7) - d, yPos + 300, (width/9) + d, hoejde);
 
-    //fjerde
+    //fjerde række
     rect((width/9) - d, yPos + 450, (width/9) + d, hoejde);
     rect((width/9*3) - d, yPos + 450, (width/9) + d, hoejde);
     rect((width/9*5) - d, yPos + 450, (width/9) + d, hoejde);
