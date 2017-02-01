@@ -5,6 +5,7 @@ class Frames {
   float hoejde = 120;
   float d = 20;
 
+
   void display() {
     //første række
     pushStyle();
@@ -33,6 +34,11 @@ class Frames {
     rect((width/9*7) - d, yPos + 450, (width/9) + d, hoejde);
     popStyle();
   }
-  void mousepress() {
+  void mousePressed() {
+    if (mousePressed) {
+      if (mouseX > (width/9) - d && mouseX < (width/9) + d && mouseX > yPos && mouseX < hoejde) {
+        println("HI");
+      }
+    }
   }
 }

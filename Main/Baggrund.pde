@@ -1,5 +1,4 @@
 class Baggrund {
-  PImage img;
   float yPos = 80;
   float d = 20;
   float hoejde = 120;
@@ -7,7 +6,7 @@ class Baggrund {
   void display() {
     //Billeder til hvert inviduelt billede
     //Jeg tager min kode fra min frames class ind i min class til baggrunden for billederne.
-    img = loadImage("Questionmark.png");
+    
     
     //billede1
     image(img, (width/9) - d, yPos, (width/9) + d, hoejde);
