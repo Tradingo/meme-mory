@@ -12,7 +12,8 @@ Baggrund myBaggrund = new Baggrund();
 
 
 void setup() {
-  fullScreen();
+  //fullScreen();
+  size(1366, 768);
   background(#2109AF);
   textSize(15);
   text("Meme-Mory - Get your memes right!", (width/2)-100, 15);
@@ -29,7 +30,7 @@ void setup() {
 }
 
 void draw() {
+  background(#2109AF);
   myFrames.display();
-  myFrames.mousePressed();
   myBaggrund.display();
     }
