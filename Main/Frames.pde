@@ -1,8 +1,8 @@
 class Frames {
   float xPos = 80;
-  float yPos = 80;
+  float yPos = 90;
   float bredde = 100;
-  float hoejde = 120;
+  float hoejde = 140;
   float d = 20;
 
 

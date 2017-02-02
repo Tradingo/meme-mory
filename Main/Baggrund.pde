@@ -1,7 +1,7 @@
 class Baggrund {
-  float yPos = 80;
+  float yPos = 90;
   float d = 20;
-  float hoejde = 120;
+  float hoejde = 140;
 
   void display() {
     //Billeder til hvert inviduelt billede
